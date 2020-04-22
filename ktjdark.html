@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/5d20cba58a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <script src="https://use.fontawesome.com/5a8a7bb461.js"></script>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+   
+    html {
+        
+     overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+        body{
+            background-color:black;
+        }
+        
+        .bgimg{
+            width:100%;
+            height:100%;
+            margin:0px;
+            padding:0px;
+           
+
+        }
+        
+       
+        
+        .title {
+            position: absolute;
+            font-family:monospace;
+            font-weight: 700;
+            color: white;
+            font-size: 7vw;
+            top: 16vw;
+            left: 56vw;
+        }
+        .motto {
+            position: absolute;
+            font-family:monospace;
+            font-weight: 100;
+            color: white;
+            font-size: 3vw;
+            top: 28vw;
+            left: 58vw;
+        }
+        .btn2{
+          left: 66vw;
+          padding: 1vw 3vw;
+          top: -29vw;
+          position: relative;
+          font-size: 2vw;
+          background:none;
+          border: white;
+          text-decoration: none;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 12%
+        }
+        .btn2 a{
+          font-size: 2vw;
+          color:white;
+        }
+        .btn2:hover{
+          background-color: black;
+        }
+        .title2{
+            color: white;
+            font-size: 3em;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 14vw;
+    margin-bottom: 3vw;
+        }
+        .lsp2{
+            font-size: 2vw;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            color: #5d5c5c;
+            margin-bottom: 1vw;
+        }
+        div.lspi:hover{
+            width: 23%;
+            padding: 1.5vw;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.2), 0 1px 4px 0 rgba(247, 242, 242, 0.904) ;
+        }
+
+
+        
+        
+        div.lspi {
+            margin:1vw;
+            padding: 1vw;
+            width: 25%;
+            float:left;
+            }
+        .mbi{
+            color: white;;
+            font-size: 3em;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 10vw;
+    margin-bottom: 5vw;
+        }
+        .mbii {
+            margin:2vw;
+            padding: 1vw;
+            width: 17%;
+            float:left;
+            background-color: white;
+            box-shadow:0 4px 8px 0 rgba(247, 245, 245, 0.2), 0 1px 4px 0 rgba(247, 242, 242, 0.904);
+
+            }
+        p{
+            font-size: 0.9em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.3vw;
+        }
+        .ss{
+            position: relative;
+            width: 30%;
+            float: left;
+            font-size: 5vw;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 700;
+            text-align: center;
+            margin-top: -41vw;
+    margin-bottom: 5vw;
+    top: 70vw;
+    color: white;
+        }
+        #ssi{
+            height: 2vw;
+            width: 70%;
+            float: right;
+            clear: right;
+        }
+        .ssi{
+            position: relative;
+            left: 2vw;
+            top: -68vw;
+            background-color: #ffffffd4;
+            margin:2vw;
+            padding: 1vw;
+            
+            width: 35%;
+            float:left;
+            box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.2), 0 1px 4px 0 rgba(247, 242, 242, 0.904);
+         
+        }
+        .btn{
+            display: none;
+            font-size: 0.9em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .ssi:hover .btn{
+            display: inline-block;
+        }
+        .ssi:hover{
+            background-color: white;
+            width: 35%;
+            padding: 1.5vw;
+           
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .ur{
+            color: white;
+            font-size: 3em;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 90vw;
+    margin-bottom: 5vw;
+        }
+        .ur1{
+            width: 50%;
+            float: left;
+        }
+        .ur2{
+            font-size: 1.5vw;
+            color: #5d5c5c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: -22vw;
+            margin-left: 30vw;
+            width: 50%;
+            float: left;
+            clear:left;
+        }
+       
+
+
+        
+.h3{
+    position: absolute;
+            font-family:monospace;
+            font-weight: 700;
+            color: #080933;
+            font-size: 3em;
+            top: 13vw;
+            left: 56vw;
+} 
+.form{
+    position: relative;
+    top: -36vw;
+    left: 6vw;
+}  
+#ta{
+    border:0px;
+    margin-top: 2vw;
+    padding-right: 3.5vw;
+    padding-top: 1vw;
+    margin: 27.3125px 0px 0px;
+    width: 428px;
+    height: 105px;
+
+}
+#fname{
+    margin-right: 2vw;
+    padding: 2vw;
+    border: 0px;
+}
+#lname{
+    padding: 2vw;
+    border: 0px;
+}
+#submit{
+    border-color: white;
+    color: #080933;
+    margin-top: 2vw;
+    padding: 1.3vw 3vw 1.3vw 3vw;
+    font-size: 1.5vw;
+    border-width: 6px;
+    border-style: double;
+    background-color: #00000012;
+}
+#submit:hover{
+    background-color: #080933;;
+    color:white;
+    cursor: pointer;
+}
+
+footer{
+    height: 5vw;
+    background-color: black;
+    margin-top: -21vw;
+    padding: 11vw;
+}
+.logo{
+    width: 21%;
+    border-radius: 20%;
+    margin-top: -9.5vw;
+}
+
+
+h5{
+    margin-top: -2vw;
+    font-weight: normal;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+            font-size: 3vw;
+           
+}
+
+.f1{
+    margin-top: -1vw;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.f2, .f21, .f22{
+    margin-top: -2vw;
+    margin-left: 11vw;
+    margin-right: -9vw;
+    width: 20%;
+    float: left;
+}
+.f3{
+    font-size: 1vw;
+    text-align: left;
+    line-height: 2.5vw;
+    margin-top: -3vw;
+
+}
+
+h6{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-weight: normal;
+            color: white;
+            font-size: 2vw;
+            margin-top: -5vw;
+            margin-bottom: 4.5vw;
+}
+
+.ul{
+       
+      margin-top: -1%;
+    box-shadow: rgba(0,0,0,0.2);
+      background-color: white;
+      position: absolute;
+        overflow: visible;
+        width: 100%;
+        padding: 1.5vw;
+        padding-bottom: 1vw;
+        }
+    li
+    {
+        padding: 1vw;
+        list-style: none;
+        float:left;
+        overflow: visible;
+       
+        
+    }
+  img{
+ 
+    width: 5vw;
+  }
+     a{  
+         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-decoration: none !important;
+            color: grey;
+            font-size: 1.5vw;
+    }
+    a:hover{
+        color:white;
+    }
+    .a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .a:hover{
+        text-decoration: none;
+        color: #0c0e35;;
+    }
+    .a1{
+        font-weight: bold;
+    color: black;
+    font-size: 1.5vw;
+    }
+    .a1:hover{
+        text-decoration: none;
+        color: grey;
+       
+    }
+  
+    .rw{
+        margin-top: -109vw;
+    margin-bottom: 32vw;
+    }
+    @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        } 
+    
+    @media only screen and (max-width:900px){
+        p{
+            font-size:0.8em;
+        }
+        .btn{
+            font-size:0.8em;
+        }
+    }
+   
+    @media (min-width: 801px) and (max-width:900px){
+        .form{
+            top:-38vw;
+
+        }
+        #submit{
+            margin-top: 1vw;
+        }
+        .ssi{
+            top:-71vw;
+        }
+
+    }
+    @media (min-width:615px) and (max-width:800px) {
+        .form {
+            top: -45vw;
+            left: 0vw;
+        }
+        h3{
+            left: 2vw!important;
+            top: -47vw!important;
+        }
+        h4{
+            left: 2vw!important;
+            top: -47vw!important;
+        }
+        #rwi{
+            height: 54vw !important;
+        }
+        #bg1{
+            text-align: center;
+        }
+        .ssi{
+            top:-75vw;
+        }
+        #surp{
+            height: 78vw !important;
+        }
+
+    }
+    @media screen and (max-width:614px){
+        #rwi{
+            height: 70vw !important;
+        }
+        .form{
+            text-align: center !important;
+            top:-55vw;
+            left: -2vw;
+        }
+        h3{
+            left: 0vw!important;
+            top: -60vw!important;
+            text-align: center !important;
+        }
+        h4{
+            text-align: center !important;
+            left: 0vw !important;
+            top: -59vw !important;
+        }
+        .title2 ,.mbi ,.ur{
+            font-size: 2em;
+        }
+        .mbii{
+            margin-left: 30vw !important;
+            margin-bottom: 5vw;
+            width: 40%;
+            float: none;
+        }
+        .mbii img{
+            height: 28vw !important;
+        }
+        .mbii div{
+            margin-top: 4vw;
+        }
+        div.lspi{
+            width: 50%;
+            float: none;
+            margin-left: 25vw !important;
+        }
+        #surp{
+            height: 260vw !important;
+            padding-bottom: 17vw;
+        }
+        .ssi{
+            left: 8vw;
+            top: -253vw;
+            width: 73%;
+        }
+        .ssi:hover{
+            width: 73%;
+        }
+
+    }
+    
+
+   
+    
+
+
+   
+        
+
+
+    </style>
+</head>
+<body >
+    <ul class="ul">
+        <li><img src="https://www.underconsideration.com/brandnew/archives/flipkart_logo_detail_icon.jpg" ></li> 
+        <div id="li" style="padding: 2vw;"> <li style="margin-left: 31vw;"><a href="#bg" class="a" >Home</a></li>
+         <li ><a href="#lsp" class="a">New Products</a>
+           </li>
+         
+           <li><a href="#ss" class="a">Surprise </a>
+            
+             </li>
+         <li ><a href="#mb" class="a">Most Bought</a>
+         
+         </li>
+       
+         <li ><a href="#user" class="a">Review</a></li>
+             <li><a href="https://www.google.com/intl/en_in/covid19/" class="a1">COVID-19</a></li>
+             </div>
+       </ul>
+
+    <div class="bg" id="bg">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg"  class="bgimg">
+        
+        <h1 class="title" style="animation: fadeInAnimation ease 10s;animation-iteration-count: 1; animation-fill-mode: forwards;">Tripkart</h1>
+        <h2 class="motto" style="animation: fadeInAnimation ease 10s;animation-iteration-count: 1; animation-fill-mode: forwards;">Shop with a smile</h2>
+        <button type="button" class="btn2" style="animation: fadeInAnimation ease 10s;animation-iteration-count: 1; animation-fill-mode: forwards;"><a href="#ss">Surprise</a></button>
+    </div>
+    <div  >
+        <div id="lsp" class="title2">Launching Soon Products</div>
+        
+            
+   <div class="lsp2">These products will be launched soon,within 7-10 days.</div>
+   <div style="text-align: center;">
+    <div class="lspi" style="margin-left: 10vw;">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="width:100%">
+        
+</div>
+
+<div class="lspi">
+    <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="width:100%">
+    
+</div>
+<div class="lspi">
+    <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="width:100%">
+    
+</div></div>
+</div>
+
+<div class="s0">
+    <div  id="ss" class="ss" style="animation: fadeInAnimation ease 10s;animation-iteration-count: 1; animation-fill-mode: forwards;">
+        S<br>
+        U<br>
+        R<br>
+        P<br>
+        R<br>
+        I<br>
+        S<br>
+        E<br>
+    </div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXl1Z83wtfR6CV3Tp45UWXO7FFeDTcxloYcnSdqx7wcEsaP3JL&usqp=CAU" id="surp" style="width: 100%;height: 72vw; "  >
+    <div id="ssi">
+    <div class="s1">
+    <div class="ssi" >
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="width:100%;">
+        <div style="text-align: center;">
+            <p style="margin-top: 2vw;">Item Name</p>
+            <p>Brand Name</p>
+            <p><s>Original Price</s> Discounted Price </p>
+            <div class="container">
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn " data-toggle="modal" data-target="#myModal">
+                  Know More
+                </button>
+              
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        Modal body..
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            
+           
+            
+    </div></div>
+    <div class="ssi" style="clear: right;!important">
+
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="width:100%;">
+        <div style="text-align: center;">
+            <p style="margin-top: 2vw;">Item Name</p>
+            <p>Brand Name</p>
+            <p><s>Original Price</s> Discounted Price </p>
+            <div class="container">
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn " data-toggle="modal" data-target="#myModal">
+                  Know More
+                </button>
+              
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        Modal body..
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+    </div></div></div>
+    <div class="s1">
+    <div class="ssi" style="clear: left;">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="width:100%;">
+        <div style="text-align: center;">
+            <p style="margin-top: 2vw;">Item Name</p>
+            <p>Brand Name</p>
+            <p><s>Original Price</s> Discounted Price </p>
+            <div class="container">
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn " data-toggle="modal" data-target="#myModal">
+                  Know More
+                </button>
+              
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        Modal body..
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+    </div></div>
+    <div class="ssi" >
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="width:100%;">
+        <div style="text-align: center;">
+            <p style="margin-top: 2vw;">Item Name</p>
+            <p>Brand Name</p>
+            <p><s>Original Price</s> Discounted Price </p>
+            
+            <div class="container">
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn " data-toggle="modal" data-target="#myModal">
+                  Know More
+                </button>
+              
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                    
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        Modal body..
+                      </div>
+                      
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+    </div></div></div>
+    
+</div></div>
+<div > 
+    <div id="mb" class="mbi" >Most Bought Items</div>
+    
+    <div class="mbii" style="margin-left: 9vw;">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div>
+    <div class="mbii">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div>
+    <div class="mbii">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div>
+    <div class="mbii" style="clear: right;margin-bottom: 4vw;" >
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div>
+    <div class="mbii" style="margin-left: 9vw;">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div>
+    <div class="mbii">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div>
+    <div class="mbii">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div>
+    <div class="mbii" style="clear: right;margin-bottom: 4vw;" >
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div>
+    <div class="mbii" style="margin-left: 30vw;" >
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div>
+    <div class="mbii" style="margin-left: 3vw;clear: right;">
+        <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="product" style="height: 14vw;width:100%;border-radius:50%;">
+        <div style="text-align: center;margin-top: 1vw;">
+            <p>Item Name</p>
+            <p>Ratings</p>
+    </div></div></div>
+    
+    
+
+
+    <div class="bg" id="bg1" >
+        <div class="us">
+        <img src="data:image/jpeg;base64,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"  id="rwi" class="bgimg" style="margin-top: 15vw;height: 33vw;margin-bottom: -2em;">
+        
+        <h3 class="title" style="left: 62vw;top: -21vw;position: relative;font-size: 4vw;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color:#080933">Customer Reviews</h3>
+        <h4 class="motto" style="left: 63vw;top: -20vw;;position: relative;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: grey;">Each review matters</h4>
+    </div>
+        <div class="form"> <form>
+            <input type="text" id="fname" placeholder="First Name">
+            <input type="text" id="lname" placeholder="Last Name"><br>
+            <textarea id="ta" rows="7" cols="60" placeholder="Reviews..."></textarea><br>
+            <input type="submit" value="Submit" id="submit">
+        </form></div> 
+    </div>
+<div class="rw">
+    <div id="user">
+        <div class="ur">User Reviews</div></div>
+
+      
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner" style="text-align: center;background-color: #0c0e35;">
+              <div class="carousel-item active">
+                <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="user" style="width: 39vw;height: 30vw;">
+                <div class="carousel-caption">
+                  <h3>Review</h3>
+                 <p></p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="user" style="width: 39vw;height: 30vw;">
+                <div class="carousel-caption">
+                  <h3>Review</h3>
+                <p></p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="user" style="width: 39vw;height: 30vw;">
+                <div class="carousel-caption">
+                  <h3>Review</h3>
+                  <p></p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev" style="color: black;">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next" style="color: black;">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- <div class="ur1" >
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1> 
+                <p>Architect & Engineer</p> 
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+   
+    <!-- <div class="ur2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, optio! Libero illo obcaecati sapiente alias vero! Debitis repellat sed similique excepturi laboriosam esse tempore. Eveniet praesentium id perferendis maxime repellendus.
+    </div>  -->
+
+    <!-- <div style="margin-left: 11vw;">
+       
+   
+    <div class="ur2" style="margin-left: 18vw;margin-top: 7vw;">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, optio! Libero illo obcaecati sapiente alias vero! Debitis repellat sed similique excepturi laboriosam esse tempore. Eveniet praesentium id perferendis maxime repellendus.
+    </div> 
+    <div class="ur1" style="margin-left: 63vw;margin-top: -11vw;">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1> 
+                <p>Architect & Engineer</p> 
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+</div> -->
+
+    <!-- <div style="margin-top: 61vw;"> 
+        <div class="ur1" >
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://malpanistop.com/wp-content/uploads/2019/03/background.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1> 
+                <p>Architect & Engineer</p> 
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+    <div class="ur2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, optio! Libero illo obcaecati sapiente alias vero! Debitis repellat sed similique excepturi laboriosam esse tempore. Eveniet praesentium id perferendis maxime repellendus.
+    </div> 
+</div> -->
+
+    <!-- <div>
+        <img src="https://lh3.googleusercontent.com/proxy/cX1wWiHTEYEfKAur6VWiakzwrHLcOQwDJIvOz5OuE3SwKBEBpTP5AlQBASCLgU0djBMMpiFsLavCnGgIZN8FSpWjImbWy5s3xKMrGlpzKqBHlaW-UiIgdBY" style="width: 100%;">
+        <div class="pr">Provide Review</div>
+        <div class="form1">
+            
+
+    </div> -->
+   
+    <footer id="footer">
+        <div class="f1">
+            <img src="https://www.underconsideration.com/brandnew/archives/flipkart_logo_detail_icon.jpg" alt="logo" class="logo">
+            <h5>Tripkart</h5>
+           
+            <!-- <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram"></i> -->
+        </div>
+        <div class="f2">
+            <h6>Quick Links</h6>
+            <div class="f3">
+            <a href >About Us</a><br>
+            <a href>Coupon</a><br>
+            <a href>Privacy policy</a><br>
+            <a href>Contact Us</a>
+            
+            </div>
+        </div>
+        <div class="f21">
+            <h6>New Products</h6>
+            <div class="f3">
+            <a href>Clothing</a><br>
+            <a href>Footwear</a><br>
+            <a href>Accessories</a><br>
+            <a href>Food</a>
+            
+            </div>
+        </div>
+        <div class="f22">
+            <h6>Support</h6>
+            <div class="f3">
+            <a href>FAQs</a><br>
+            <a href>Privacy policy</a><br>
+            <a href>Privacy policy</a><br>
+            <a href>Terms & Conditions</a>
+            <a href="#bg" style="color: white;font-size: 2vw;">BACK</a>
+            </div>
+        </div>
+
+    </footer>
+
+  
+
+
+    
+</body>
+</html>
